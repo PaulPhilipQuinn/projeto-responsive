@@ -11,6 +11,7 @@ padding: 0;
 box-sizing: border-box;
 text-decoration: none;
 font-family: "inter", sans-serif;
+list-style-type: none;
 }
 html, body {
     height: 100%;
@@ -37,6 +38,7 @@ header {
     }
 }
  main {
+
     padding: 63px 0 80px;
     background: linear-gradient(#b5b6f2, #efefff);
     form {
@@ -69,3 +71,58 @@ header {
        ;
     }
  }}
+ footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 50px  20px 45px;
+
+    .box-logo-socil {
+    .logo-footer {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 20px;
+
+    }
+    span {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: .25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+ }
+
+ul {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+ }
+ }
+ .nav {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 40px;
+    .links {
+        h2 {
+            font-size: 18px;
+            margin: 10px;
+
+        }
+        nav {
+
+            a {
+                color: #fff;
+                font-weight: 300;
+                line-height: 31px;
+
+            }
+        }
+    }
+ }
